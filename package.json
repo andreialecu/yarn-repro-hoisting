@@ -1,0 +1,8 @@
+{
+  "name": "yarn-repro-hoisting",
+  "packageManager": "yarn@3.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "@app/eslint-config",
+  "main": "index.js",
+  "peerDependencies": {
+    "eslint": "*",
+    "typescript": "*"
+  },
+  "dependencies": {
+    "@react-native-community/eslint-config": "^3.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.29.1",
+    "@typescript-eslint/parser": "^4.29.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "eslint-plugin-unused-imports": "^1.1.2",
+    "prettier": "2.3.2"
+  },
+  "devDependencies": {
+    "@types/eslint-plugin-prettier": "^3",
+    "@types/prettier": "^2"
+  }
+}

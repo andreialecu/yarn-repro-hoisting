@@ -1,0 +1,14 @@
+{
+  "name": "@app/server",
+  "packageManager": "yarn@3.0.0",
+  "scripts": {
+    "lint": "eslint \"{src,apps,libs,test}/**/*.ts\""
+  },
+  "devDependencies": {
+    "@app/eslint-config": "workspace:*",
+    "eslint": "^7.32.0"
+  },
+  "dependencies": {
+    "typescript": "^4.3.5"
+  }
+}
