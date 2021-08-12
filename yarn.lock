@@ -10,6 +10,7 @@ __metadata:
   resolution: "@app/eslint-config@workspace:packages/lint"
   dependencies:
     "@react-native-community/eslint-config": ^3.0.0
+    "@rushstack/eslint-patch": ^1.0.6
     "@types/eslint-plugin-prettier": ^3
     "@types/prettier": ^2
     "@typescript-eslint/eslint-plugin": ^4.29.1
@@ -267,6 +268,13 @@ __metadata:
   version: 1.1.0
   resolution: "@react-native-community/eslint-plugin@npm:1.1.0"
   checksum: 4da7468f490139b7990d8d22347d616221590c0d85271b4ca9ff3c46df65138151bbd1c1ebeff6c0da8b344bb7deec27f96f5fbb72f162ebb492bd8056fe8845
+  languageName: node
+  linkType: hard
+
+"@rushstack/eslint-patch@npm:^1.0.6":
+  version: 1.0.6
+  resolution: "@rushstack/eslint-patch@npm:1.0.6"
+  checksum: fbecc15d7e95186622514d86f566082f1f6d04c30d93830bffe154fd699780f32120bbbce2efb919658696af01c58f0e02e580941ede8eee8cc9b007637b639c
   languageName: node
   linkType: hard
 
