@@ -1,3 +1,6 @@
+// https://github.com/yarnpkg/berry/issues/8#issuecomment-681069562
+require("@rushstack/eslint-patch/modern-module-resolution");
+
 module.exports = {
   parser: "@typescript-eslint/parser",
   extends: [
