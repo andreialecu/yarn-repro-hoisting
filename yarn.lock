@@ -2290,6 +2290,7 @@ typescript@^4.3.5:
   version: 0.0.0-use.local
   resolution: "yarn-repro-hoisting@workspace:."
   dependencies:
+    eslint: ^7.32.0
     typescript: ^4.3.5
   languageName: unknown
   linkType: soft
